@@ -1,0 +1,365 @@
+
+/*========================Seccion principal Header de lupita===========================*/
+
+*{
+	 font-family: 'Open Sans', sans-serif;
+}
+
+.hero{
+	background-image: url(../img/background/hero.jpg);
+	height: 600px;
+	background-position: top;
+	margin-bottom: 10%;
+}
+
+.filtro{
+	background: black;
+	height: 600px;
+	opacity: 0.3;
+	filter: alpha(opacity=20);
+}
+
+nav li{
+	position: relative;
+	display: inline-block;
+	left: 700px;
+	padding-left: 30px;
+	top:30px; 
+}
+
+.push:hover{
+	color: #0dc0c0; 
+}
+
+.titulo{
+	margin-top: 15%;
+}
+ .titulo-2{
+	font-size: 50px;
+ }
+
+ .light-text{
+ 	font-weight: lighter;
+ }
+
+.btn-estilos{
+	width: 150px;
+	height: 50px;
+	border-style: none;
+	margin-top: 5%;
+	background: #4F4F4F;
+}	
+	
+ .clic{
+	font-size: 18px;
+}
+
+.trans{
+	opacity: 0.5;
+}
+
+.icon{
+	color: white;
+	position: absolute;
+	margin-left: 3%;
+	margin-top: 2.2%;
+	font-size: 22px;
+}
+
+/*========================SECTION ICONOS DE OFELIA=======================*/
+* .centrado {
+	text-align: center;
+}
+.pb-35 {
+	padding-bottom: 35%;
+}
+
+/*segunda sección______*Ofelia*/
+.features {
+	font-size: 34px;
+	font-family: Arial;
+	font-weight: 100;
+	text-align: center;
+	margin-top: 18px;
+}
+.lptp {
+	height: 345px;
+	margin-left: 14%;
+	margin-bottom: 8%;
+}
+
+/*============================Section de Portfolio hecha por lupita===============*/
+
+.normal-text{
+ 	font-weight: normal;
+ }
+
+.bold-text{
+	font-weight: bold;
+}
+
+.portfolio{
+	height: 1330px;
+}
+
+.text-grisdark{
+	color:#454545
+}
+
+.title-portfolio{
+	font-size: 30px;
+	padding-top: 3%;
+	padding-bottom: 2%;
+}
+
+.text.pd-1{
+	padding-bottom: 1%;
+}
+
+.nav-2 .menu-2{
+	position: relative;
+	display: inline-block;
+	top: 30px;
+	left: 338px;
+	padding-left: 5px;
+}
+
+.bg-active{
+	background: #0dc0c0;
+	padding: 10px;	
+}
+
+.bg-nav{
+	background: white;
+	padding: 10px;	
+}
+
+.marco{
+	background: white;
+	width: 520px;
+	height: 310px;
+	box-shadow: 0px 1px 3px 1px rgba(199,199,199,1);
+}
+
+.mgt-6{
+	margin-top: 6%;
+}
+
+.mgb-3{
+	margin-bottom: 3%;
+}
+
+.mlg-3{
+	margin-left: 3%;
+}
+
+.bg-push:hover{
+	background-color: #0dc0c0;
+	color: white;
+}
+
+.foto-portfolio{
+	width: 486px;
+	height: 235px;
+	margin-top: 3%;
+}
+
+.clic-2{
+	background: #4F4F4F;
+	width: 100px;
+	height: 45px;
+	border-style: none;
+	font-size: 15px;
+	margin-top: 5%;
+}
+
+.loadmore{
+	background-image: url(../img/background/city.jpg);
+	height: 400px;
+	background-position: top;
+
+}
+
+.filter{
+	-webkit-filter: brightness(40%);
+}
+
+.comentario-principal{
+	position: absolute;
+	margin-top: 7%;
+	z-index: 1;
+	text-align: center;
+	padding-left: 21%;
+}
+
+.clic-estilos{
+	position: absolute;
+	width: 150px;
+	height: 50px;
+	border-style: none;
+	bottom: -630%;
+	background: #4F4F4F;
+	font-size: 13px;
+	opacity: 0.5;
+	left: 44%;
+}	
+
+.load{
+	height: 1180px;
+}
+
+.marco-package{
+	background: white;
+	width: 335px;
+	height: 550px;
+	box-shadow: 0px 1px 3px 1px rgba(199,199,199,1);
+}
+
+.mgt-3{
+	margin-top: 3%;
+}
+
+.bg-standard{
+	width: 307px;
+	height: 75px;
+	background: #28303C;
+	margin-top: 10%;
+}
+
+.bg-premium{
+	width: 307px;
+	height: 75px;
+	background: #0dc0c0;
+	margin-top: 10%;
+}
+
+.standard{
+	position: relative;
+	top: 15px;
+	font-size: 20px;
+}
+
+.pt-2{
+	padding-top: 2%;
+}
+
+.bg-precio{
+	width: 307px;
+	height: 105px;
+
+}
+
+.text-precio{
+	font-size: 15px;
+}
+
+.size-number{
+	font-size: 25px;
+}
+
+.clic-4{
+	background: #28303C;
+	width: 110px;
+	height: 30px;
+	border-style: none;
+	font-size: 15px;
+	margin-top: 5%;
+}
+
+/*esta es clases de la seccion contact y footer de ofelia*/
+.subt {
+	font-size: 30px;
+	text-align: center;
+	font-family: Verdana;
+}
+.foto img {
+	border-radius: 100%;
+	height: 160px;
+	margin-left: 42%;
+	margin-top: 5%;
+}
+.inf {
+	font-size: 19px;
+	margin-top: 15px;
+	margin-bottom: 5%;
+}
+.contcto {
+	background-image: url(../img/background/contactus.jpg);
+	background-repeat: no-repeat;
+	-webkit-filter: brightness(95%);
+	background-size: 100%;
+	height: 690px;
+	border-top: 2px solid gray;
+	border-bottom: 2px solid gray;
+	margin-bottom: 5%;
+}
+.formu {
+	list-style: none;
+}
+.con {
+	font-size: 32px;
+	font-family: Arial;
+	font-weight: 200;
+	margin-bottom: 32px;
+}
+.logs {
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.logs i {
+	margin-left: 20px;
+}
+footer {
+	background-color: #262727;
+	padding: 50px;
+	padding-bottom: 0;
+}
+.bla {
+	margin-top: 4%;
+	font-size: 35px;
+	font-family: Arial;
+	font-weight: 100;
+	text-align: center;
+}
+.bla2 {
+	font-size: 22px;
+	text-align: center;
+	margin-top: 32px;
+}
+.bla3 {
+	margin-top: 22px;
+	font-size: 26px;
+	font-family: Arial;
+	font-weight: 100;
+}
+.bla4 {
+	margin-top: 22px;
+	font-size: 26px;
+	font-family: Arial;
+	font-weight: 100;
+	text-align: center;
+}
+.bla5 {
+	margin-top: 22px;
+	font-family: Arial;
+	text-align: left;
+	font-size: 18px;
+	padding-left: 38px;
+}
+
+input {
+	width: 560px;
+	height: 50px;
+	opacity: 0.5;
+	margin-top: 22px;
+	margin-bottom: 22px;
+	padding-left: 30px;
+}
+.df {
+	color: #ecf0f1;
+}
+textarea {
+	opacity: 0.5;
+	padding-left: 30px;
+	padding-top: 18px;
+}
